@@ -1,0 +1,170 @@
+@import url("http://fonts.googleapis.com/css?family=Varela");
+@import url("http://fonts.googleapis.com/css?family=Lora");
+.space_4 {
+  padding-top: 4px;
+  padding-bottom: 4px; }
+
+.space_8 {
+  padding-top: 8px;
+  padding-bottom: 8px; }
+
+.space_10 {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.space_12 {
+  padding-top: 12px;
+  padding-bottom: 12px; }
+
+.space_20 {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.space_32 {
+  padding-top: 32px;
+  padding-bottom: 32px; }
+
+.space_48 {
+  padding-top: 48px;
+  padding-bottom: 48px; }
+
+.space_60 {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.space_75 {
+  padding-top: 75px;
+  padding-bottom: 75px; }
+
+.bg_red {
+  background-color: #af3531; }
+
+.bg_red1 {
+  background-color: #df8b88; }
+
+.bg_teal {
+  background-color: #4db6ac; }
+
+.bg_teal1 {
+  background-color: #aad4d0; }
+
+.bg_beige {
+  background-color: #ebe5df; }
+
+.bg_white {
+  background-color: #fff; }
+
+.bg_black {
+  background-color: #444; }
+
+html {
+  font-size: 1em; }
+
+body {
+  font-family: 'Varela', serif;
+  font-weight: 400;
+  color: #444; }
+
+.serif {
+  font-family: 'Lora', sans-serif; }
+
+h1, h2, h3, h4, h5, p {
+  margin: 0 0 0.5em 0;
+  font-weight: inherit;
+  line-height: 1.25; }
+
+p {
+  margin-bottom: 1em;
+  line-height: 1.45; }
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+  font-weight: 700; }
+
+h2 {
+  font-size: 2.827em;
+  font-weight: 600; }
+
+h3 {
+  font-size: 1.999em;
+  font-weight: 600; }
+
+h4 {
+  font-size: 1.414em; }
+
+h5 {
+  font-size: 1.207em; }
+
+.promo {
+  font-size: 5.653em;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2; }
+
+.font_small {
+  font-size: 0.707em; }
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: .75em; }
+  p {
+    font-size: 1.08em;
+    padding-bottom: .9em; }
+  .promo {
+    font-size: 5.1em;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2; } }
+
+.typography {
+  margin: 20px;
+  border-top: 5px solid #aad4d0; }
+
+hr {
+  margin: 20px 0; }
+
+.siteDown {
+  background: url("../img/siteDown_lg.jpg") no-repeat center center fixed;
+  background-size: cover; }
+  .siteDown .logo {
+    background: url("../img/logo_large.png") no-repeat center center fixed;
+    background-size: contain;
+    position: absolute;
+    bottom: 30px;
+    width: 150px;
+    height: 60px; }
+
+@media screen and (max-width: 480px) {
+  .siteDown {
+    background: url("../img/siteDown_sm.jpg") no-repeat center center fixed;
+    background-size: cover; }
+    .siteDown .logo {
+      background: url("../img/logo_large.png") no-repeat center center fixed;
+      background-size: contain;
+      position: absolute;
+      bottom: 30px;
+      width: 150px;
+      height: 60px; } }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+.clearfix {
+  display: block; }
+
+html[xmlns] .clearfix {
+  display: block; }
+
+* html .clearfix {
+  height: 1%; }
+
+/* Large desktop */
+/* Portrait tablet to landscape and desktop */
+/* Landscape phone to portrait tablet */
+/* Landscape phones and down */
