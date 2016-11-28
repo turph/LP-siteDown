@@ -127,25 +127,38 @@ hr {
 .siteDown {
   background: url("../img/siteDown_lg.jpg") no-repeat center center fixed;
   background-size: cover; }
+  .siteDown section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    text-align: center; }
+  .siteDown .headline {
+    background-color: rgba(68, 68, 68, 0.5);
+    margin-top: 40px;
+    padding: 32px;
+    color: #fff; }
+    .siteDown .headline img {
+      margin-bottom: 20px;
+      height: 60px; }
   .siteDown .logo {
-    background: url("../img/logo_large.png") no-repeat center center fixed;
-    background-size: contain;
     position: absolute;
     bottom: 30px;
-    width: 150px;
-    height: 60px; }
+    width: 600px; }
 
 @media screen and (max-width: 480px) {
   .siteDown {
     background: url("../img/siteDown_sm.jpg") no-repeat center center fixed;
     background-size: cover; }
+    .siteDown section {
+      width: 80%; }
+    .siteDown .headline {
+      margin-top: 20px;
+      padding: 26px; }
+      .siteDown .headline img {
+        height: 40px; }
     .siteDown .logo {
-      background: url("../img/logo_large.png") no-repeat center center fixed;
-      background-size: contain;
-      position: absolute;
-      bottom: 30px;
-      width: 150px;
-      height: 60px; } }
+      width: 80%; } }
 
 .clearfix:after {
   content: ".";
